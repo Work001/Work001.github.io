@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+Body { 
+ background-image: url("http://Work001.github.io/unit_4/Background1.jpg");
+ background-size: cover;
+ color: #fff;
+ 	
+}
+
+h1, p {
+	
+	color:(000,000,000);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	padding-top: 100px;
+	padding-left: 500px;
+	max-width: 450px;
+}
+
+#p1 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	color: black;
+}

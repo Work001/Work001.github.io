@@ -2,29 +2,35 @@
 
 
 Body { 
-background-image: url("http://Work001.github.io/unit_3/blur1.jpg");
- background-size: cover;
- position: absolute;
- color: #fff;
- padding-top: 300px;
+background-image: url("http://Work001.github.io/unit_4/Background1.jpg");
+background-size: cover;
+color: #fff;
+padding-top: 10px;
  	
 }
 
 h1, p {
-	
+
 	color:(000,000,000);
 	font-family: 'Roboto', sans-serif;
- text-align: center;
-	text-align: center;
+ 	text-align: top;
+	
+
 	color: black;
 	font-size: 30px;
+	padding-top: 10px;
+	
 }
 
 #p1 {
 	font-size: 12px;
 	letter-spacing: 0.5px;
 	padding-top: 10px;
-	padding-left: 120px;
-	padding-right: 120px;
+	padding-left: 200px;
+	padding-right: 200px;
 	color: black;
+	line-height: 3em;
+	margin: 2em;
+	
+
 }
