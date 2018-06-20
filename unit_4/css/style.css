@@ -8,20 +8,32 @@ Body {
  	
 }
 
-h1, p {
+p {
 	
-	color:(000,000,000);
+	color:rgb(000,000,000);
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
+	text-align: left;
 	color: black;
-	font-size: 30px;
-	padding-top: 100px;
-	padding-left: 500px;
-	max-width: 450px;
+	font-size: 10px;
+	line-height: 2em;
 }
 
-#p1 {
-	font-size: 12px;
-	letter-spacing: 0.5px;
+h1 { 
+
+	color:rgb(000,000,000);
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
 	color: black;
+	font-size: 15px;
+
+}
+
+h2 {
+
+	color:rgb(000,000,000);
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	color: black;
+	font-size: 15px;
+
 }
