@@ -11,6 +11,36 @@ body {
  font-family: 'Roboto', sans-serif;	
 }
 
+
+header{
+
+
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav{
+
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section{
+
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
 p {
 	
 	color:rgb(000,000,000);
@@ -65,6 +95,10 @@ footer{
   	font-size: 0.5em;
   	background: #98d7cf;
   	display: block;
+
+  	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 
 }
 
