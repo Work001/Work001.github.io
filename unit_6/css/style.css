@@ -5,7 +5,7 @@ body {
  background-image: url("http://Work001.github.io/unit_4/Background1.jpg");
  background-size: cover;
  color: #fff;
- background-position: center;
+ background-position: absolute;
  height: 800px;
  background-repeat: no-repeat;
  font-family: 'Roboto', sans-serif;	
@@ -13,14 +13,13 @@ body {
 
 p {
 	
-	color:rgb(000,000,000);
+	
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: black;
 	font-size: 15px;
 	line-height: 2em;
-	max-width: 6008x;
-	margin: 1em 15em;
+
 }
 
 h1 { 
@@ -29,23 +28,11 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: black;
-	font-size: 50px;
+	font-size: 45px;
 	display: block;
-
-
+	text-decoration: underline;
+	text-decoration-color: #98d7cf;
 }
-
-
-ul{
-
-color:rgb(000,000,000);
-	text-align: center;
-	color: black;
-	font-size: 15px;
-	line-height: 2em;
-	max-width: 6008x;
-	margin: 1em 15em;
-	list-style-type: none;
 
 }
 span{
@@ -73,7 +60,7 @@ footer{
 
 img{
 
-	display: block;
+	display: inline-block;
 	padding: 0 3em 0 3em;
 	margin-left: auto;
     margin-right: auto;
@@ -81,39 +68,27 @@ img{
 
 }
 
-nav {
-
-	display: block;
-	text-align: center;
-	display: block;
-	background-color: #98d7cf;
+div {
+  font-size: 1.2em;
+  width: auto;
+  padding: 2%;
+  display: inline-block;
 }
 
+#leftside{
 
+	float: left;
+}
 
 li{
 	margin: 0px 10px;
 	float: left;
 	margin-right: 50px;
-  	width: 30%;
+  	width: 20%;
   	height: 2em;
   	outline: 1px solid #98d7cf;
  	text-align: center;
   	line-height: 2em;
-  	color: #000;
-  	background: #fff;
+  	background: #98d7cf;
 
-}
-
-#right col{
-
-float: right;
-
-
-
-}
-
-#Left col{
-
-	float: left;
 }
