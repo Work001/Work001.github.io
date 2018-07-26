@@ -74,36 +74,46 @@ color: white;
 .columns{
 
 	display: block;
-	margin: 1em 0.5em 1em 3em;
-}
-.columns div {
-	max-width:600px;
-	margin-top: 3em;
-}
-.columns div:after {
-	display:block;
-	content:"";
-	clear:both;
 
+	
 }
-.columns div > * {
+
+.columns div {
+	width:50%;
+	
+}
+
+
+.wrapper {
+
+	float:left;
+}
+
+.columns div> p{
+
+	line-height: 1.5em;
+	padding-bottom: 1em;
+	padding-top: 0.5em;
+}
+
+.columns div > img {
+
+
+	width: 10%;
+	display:block;
 	float: left;
-}
-.columns div > p {
-	margin-top:1em;
-	margin-left: 1em;
-	width: 50%;
+	
+
 }
 
 .columns h3{
     border-bottom: 4px solid #98d7cf;
   	width: 65%;
+  	line-height:2em;
 }
 
-.columns div > img {
 
-	width: 10%;
-}
+
 #top {
 
 	margin-top: 1em;
@@ -138,10 +148,7 @@ footer{
   clear: both;      
 }
 
-.wrapper {
 
-	float: left;
-}
 
 
 @ media screen and (device-width: 320px) and
